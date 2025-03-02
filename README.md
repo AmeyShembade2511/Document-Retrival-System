@@ -35,11 +35,7 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-OR 
 
-```
-pip install -r requirements.txt
-```
 
 ### 5️⃣ Run the FastAPI Server
 ```bash
@@ -48,7 +44,7 @@ uvicorn main:app --reload
 OR
 
 ```
-python -m uvicorn main:app --reload
+python -m uvicorn main:app --reload (For Windows)
 ```
 
 This will start the server at `http://127.0.0.1:8000`.
