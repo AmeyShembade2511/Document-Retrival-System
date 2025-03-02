@@ -38,8 +38,6 @@ pip install -r requirements.txt
 
 
 ### 5️⃣ Run the FastAPI Server
-## Change to the folder src
-  cd src
   
 ```bash
 uvicorn main:app --reload
