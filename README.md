@@ -24,20 +24,15 @@ git clone <repository_link>
 cd <repository_folder>/src
 ```
 
-### 3️⃣ Create and Activate a Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-```
 
-### 4️⃣ Install Required Dependencies
+### 3️⃣ Install Required Dependencies
 ```bash
 pip install -r ../requirements.txt
 ```
 
 
 
-### 5️⃣ Run the FastAPI Server
+### 4️⃣ Run the FastAPI Server
   
 ```bash
 uvicorn main:app --reload
